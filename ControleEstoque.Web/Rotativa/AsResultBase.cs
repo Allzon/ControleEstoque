@@ -179,6 +179,7 @@ namespace Rotativa
 
         protected abstract byte[] WkhtmlConvert(string switches);
 
+        [Obsolete]
         public byte[] BuildFile(ControllerContext context)
         {
             if (context == null)
